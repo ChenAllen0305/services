@@ -32,8 +32,7 @@ spring:
     neo4j:
       username: neo4j
       password: 123456
-      uri: http://localhost:7474
-#      uri: http://192.168.2.116:7475
+      uri: http://192.168.2.116:7475
 ftp:
   hostname: 172.18.12.137
   port: 21
