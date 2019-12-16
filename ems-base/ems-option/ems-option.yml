@@ -6,7 +6,7 @@ spring:
     url: jdbc:mysql://192.168.2.13:3306/sgool4?useUnicode=true&characterEncoding=utf-8
     username: wanke
     password: 5j1#H!^d
-    driverClassName: com.mysql.cj.jdbc.Driver
+    driverClassName: com.mysql.jdbc.Driver
     # 初始化大小，最小，最大
     initialSize: 5
     minIdle: 5
@@ -28,14 +28,10 @@ spring:
     filters: stat,wall,log4j
     # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+  jpa:
+    database: mysql
   data: 
     neo4j:
       username: neo4j
       password: neo4j@wankeauto.com
-      uri: http://192.168.2.116:7475
-ftp:
-  hostname: 172.18.12.137
-  port: 21
-  username: wanke
-  password: wanke
-  timeout: 30000
+      uri: http://192.168.2.116:7478
