@@ -19,9 +19,9 @@ spring:
     timeout: 0
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://192.168.2.13:3306/sgool4?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-    username: wanke
-    password: 5j1#H!^d
+    url: jdbc:mysql://47.115.164.202:3306/sgool?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: test
+    password: ~x!+S~QbN1
     driverClassName: com.mysql.jdbc.Driver
     # 初始化大小，最小，最大
     initialSize: 5
